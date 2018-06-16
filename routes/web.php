@@ -108,3 +108,5 @@ Route::group(['prefix' => 'inpatient', 'as' => 'inpatient.'], function ()
     Route::put('{inpatient}', 'InpatientController@update')->name('update');
     Route::delete('{inpatient}', 'InpatientController@destroy')->name('destroy');
 });
+
+//this is comment
